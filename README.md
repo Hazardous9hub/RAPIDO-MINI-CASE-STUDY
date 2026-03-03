@@ -74,6 +74,6 @@ See `schema/er_diagram.md` for the full ER diagram.
 1. Review the problem statement at the top of each SQL file.
 2. Examine the query logic and SQL patterns used.
 3. Run queries in **BigQuery** or **MySQL** adapt them for other SQL dialects.
-4. Refer to `results/` for expected outputs and row counts.
+4. Refer to `RESULTS/` for expected outputs and row counts.
 
 ---
