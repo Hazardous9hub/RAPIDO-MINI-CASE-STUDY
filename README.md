@@ -65,6 +65,7 @@ See `SCHEMA/Rapido ER.png` for the full ER diagram.
 - Aggregations (`SUM`, `AVG`, `COUNT`)
 - Use of `GROUP BY`, `CASE WHEN` for conditonal buckets and grouping.
 - Filtering with `HAVING`
+- CTE's
 - Subqueries (correlated & non-correlated)
 - `CASE` expressions for segmentation
 - `UNION DISTINCT`
