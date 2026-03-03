@@ -11,6 +11,7 @@ The analysis focuses on:
 - Data segmentation and aggregation
 
 All queries are written in **BigQuery SQL** and emphasize clarity, correctness, and analytical intent.
+Refer to `Problem Statements - Queries` file to access all SQL queries.
 
 ---
 
@@ -24,6 +25,10 @@ See `schema/er_diagram.md` for the full ER diagram.
 
 ## Dataset Description
 
+  **Refer `DATASETS` file to access and download: 
+  - `Rapido DATASET - rides, users` EXCEL file for easy reference,
+  - `users` and `rides` tables, CSV files. Use these tables and create RAPIDO dataset in any SQL dialects.**
+    
 ### USERS Table
 | Column Name   | Description                          |
 |--------------|--------------------------------------|
