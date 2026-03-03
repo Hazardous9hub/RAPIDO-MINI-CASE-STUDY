@@ -15,13 +15,21 @@ Refer to `Problem Statements - Queries` file to access all SQL queries.
 
 ---
 
+## Repository Structure
+
+- `DATASETS` → Downloadable CSV, Excel files for RAPIDO Dataset
+- `SCHEMA/` → Table definitions and ER diagram
+- `Problem Statements - Queries/` → 15 business-driven SQL problem statements
+- `RESULTS/` → Sample outputs and validation notes
+
+---
+
 ## Entity Relationship Diagram (ERD)
 
-The dataset follows a simple star-style schema with:
+The dataset follows a simple 1-to-many, star-style schema with:
 - USERS as the dimension table
 - RIDES as the fact table
-
-See `SCHEMA/Rapido ER.png` for the full ER diagram.
+See `SCHEMA/Rapido ER.png` for the visual ER diagram.
 
 ## Dataset Description
 
@@ -80,6 +88,11 @@ See `SCHEMA/Rapido ER.png` for the full ER diagram.
 1. Review the problem statement at the top of each SQL file.
 2. Examine the query logic and SQL patterns used.
 3. Run queries in **BigQuery** or **MySQL** adapt them for other SQL dialects.
-4. Refer to `RESULTS/` for expected outputs and row counts.
+4. Refer to screenshots in `RESULTS/` folder for expected outputs and row counts.
 
 ---
+
+## Author
+
+ ~~ Shivaling Battarki
+    Email: shivalingb09@gmail.com
