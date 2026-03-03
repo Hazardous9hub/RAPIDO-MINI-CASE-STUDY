@@ -29,8 +29,3 @@ SELECT
   user_id,
   MAX(vehicle_type_count
 FROM veh_counts;
-
-
-
-
-
