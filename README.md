@@ -21,7 +21,7 @@ The dataset follows a simple star-style schema with:
 - USERS as the dimension table
 - RIDES as the fact table
 
-See `schema/er_diagram.md` for the full ER diagram.
+See `SCHEMA/Rapido ER.png` for the full ER diagram.
 
 ## Dataset Description
 
