@@ -14,6 +14,14 @@ All queries are written in **BigQuery SQL** and emphasize clarity, correctness, 
 
 ---
 
+## Entity Relationship Diagram (ERD)
+
+The dataset follows a simple star-style schema with:
+- USERS as the dimension table
+- RIDES as the fact table
+
+See `schema/er_diagram.md` for the full ER diagram.
+
 ## Dataset Description
 
 ### USERS Table
